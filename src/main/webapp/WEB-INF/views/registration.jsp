@@ -24,7 +24,7 @@
 
 		<tr>
 			<td>DOB</td>
-			<td><form:input type="date" " path="dob" /></td>
+			<td><form:input type="date"  path="dob" /></td>
 		</tr>
 
 		<tr>
@@ -47,7 +47,7 @@
 			<td>Country</td>
 			<td><form:select path="country">
 					<form:option value="">Please select......</form:option>
-					<form:options items="${countryList }" itemValue="code"
+					<form:options items="${customerRequest.countryList }" itemValue="code"
 						itemLabel="name" />
 				</form:select></td>
 		</tr>
